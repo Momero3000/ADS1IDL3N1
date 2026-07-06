@@ -1,0 +1,84 @@
+h1 {
+    color:aquamarine;
+
+}
+html{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:linear-gradient(300deg, #4B9940, #83FF73)
+}
+body{
+    max-width:1000px;
+    margin:30px auto;
+    padding:30px;
+    background:white;
+    border-radius:25px;
+    box-shadow:0 15px 50px black;
+    border:none;
+    animation:Nigga 1.5s ease-in-out;
+}
+h1{
+    font-size:90px;
+    text-align: center;
+    color:rgb(188,180,40);
+    text-shadow: 15px 15px 20px rgb(58,88,64);
+    transition: color 0.4s ease;
+    
+}
+h2{
+    display:inline-block;
+    font-size:45px;
+    color:rgb(58,88,64);
+    border-left:6px solid rgb(188,180,40);
+    padding-left:10px;
+    transition: color 0.4s ease, border-color 0.4s ease;
+    border-right:6px solid rgb(188,180,40);
+    padding-right:0 10px;
+    padding:0 10px;
+}
+ol{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#407799;
+}
+ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#407799;
+}
+p,li{
+    font-size:20px;
+    text-align: justify;
+    line-height:1,5;
+}
+img,iframe{
+    display: block;
+    margin:15px auto ;
+    box-shadow:0 15px 20px rgb(112,64,74);
+    border-radius:20px;
+    transition:0.4s ease;
+}
+a{
+    color:darkcyan;
+    text-decoration:none;
+    font-weight:bold;
+}
+img:hover{
+    transform:scale(1.005) rotate(1deg);
+}
+h1:hover{
+    color:black;
+}
+h2:hover{
+
+    border-left-color:antiquewhite;
+    border-right-color:antiquewhite;
+
+}
+@keyframes Nigga{
+    from{
+        opacity:0;
+        transform:translateY(40px);   
+    }
+    to{
+      opacity:1;
+      transform:translateY(0);
+    }
+}
